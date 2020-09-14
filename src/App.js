@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import {Message} from './Message.js'
 import './App.css';
 
-function App() {
+export default function App() {
   let [count , setcount] = useState(1);
   let [ismorning , setmorning] = useState(false);
 
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+
